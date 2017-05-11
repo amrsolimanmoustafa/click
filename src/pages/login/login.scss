@@ -1,0 +1,46 @@
+page-login {
+.content{
+    background-image: url("/assets/imgs/login.png");
+    background-size: cover;
+}
+.forma{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+.formitem{
+  
+    margin-right: auto;
+    margin-left: auto;
+    border: 1;
+    direction: rtl;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.logbtn{
+    height: 50px;
+    font-size: 25px;
+    background-color: #ffaa09;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.signbtn{
+    height: 50px;
+    font-size: 25px;
+    background-color: #e33c76;
+    margin-right: auto;
+    margin-left: auto;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+.forget{
+    float:right;
+    color:white;
+}
+
+}

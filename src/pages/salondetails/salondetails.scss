@@ -1,0 +1,70 @@
+page-salondetails {
+
+    .content{
+        background-color: #e2e2e2;
+    }
+  .segment{
+    height: 50px;
+        .segment-button{
+        color:gray;
+        height: 80%;
+    }
+}
+.segment .segment-button.segment-activated{
+    border-bottom:3px solid #b32470;
+    color: #b32470;
+    font-size: large;
+}
+.segment-ios .segment-button.segment-activated{
+    background-color: transparent;
+}
+.segment-ios .segment-button{
+    border:none;
+}
+.slides{
+    height: 37%;
+}
+.titlediv{
+    position: fixed;
+    top: 8%;
+    background-color: black;
+    z-index: 10;
+    color: white;
+    width: 100%;
+    opacity: .5;
+    height: 60px;
+    direction: rtl;
+    h6,h4{
+          margin-top: 3px;
+          padding: 0 6px 3px 0;
+          margin-bottom: 0px;
+          line-height: 1.2;
+    }
+    .rightdiv{
+       width: 70%;
+    }
+    .leftdiv{
+        text-align: left;
+        padding: 15px;
+        color: #b32470;
+        font-size: 32px;
+       }
+    
+}
+.total{
+        border: 1px solid lightgray;
+        margin: 16px;
+      
+}
+
+.servicename{
+  border-bottom: 1px solid lightgray;
+  padding:4px;
+  margin:0;
+  color:#716c6c;
+  background-color: white;
+  ion-icon{
+      float:left;
+  }
+}
+}

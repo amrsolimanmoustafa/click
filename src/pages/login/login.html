@@ -1,0 +1,23 @@
+<!--
+  Generated template for the Login page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+
+<ion-content>
+ <div style="height:180px">
+   <img>
+ </div>
+ <form class="forma">
+   <ion-item class="formitem">
+    <!--<span> <ion-icon ios="ios-phone-portrait" md="md-phone-portrait"></ion-icon></span>-->
+      <ion-input type="number" placeholder="رقم الجوال"></ion-input></ion-item>
+  
+  <ion-item class="formitem"> <ion-input type="password" placeholder="كلمه المرور"></ion-input></ion-item>
+   <button class="logbtn" ion-button block  (click)="gotoedit()">دخول</button>
+    <button  class="forget" ion-button clear (click)="showPrompt()">نسيت كلمه المرور</button>
+  <button class="signbtn" ion-button block (click)="gosign()">انشاء حساب</button> 
+ </form>
+</ion-content>

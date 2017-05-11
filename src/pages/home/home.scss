@@ -1,0 +1,146 @@
+page-home {
+    .content{
+        background-color:#f4f4f4;
+    }
+.header{
+    background-color: black;
+}
+.back-button.show-back-button {
+    display: none;
+}
+
+.toolbar-title{
+ 
+    text-align: center;
+}
+.menu{
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.search{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+}
+.segment{
+    height: 50px;
+        .segment-button{
+        color:gray;
+        height: 80%;
+    }
+}
+.segment .segment-button.segment-activated{
+    border-bottom:3px solid #b32470;
+    color: #b32470;
+    font-size: large;
+}
+.segment-ios .segment-button.segment-activated{
+    background-color: transparent;
+}
+.segment-ios .segment-button{
+    border:none;
+}
+.slides{
+    height: 20%;
+}
+h6{
+    direction: rtl;
+    padding: 3% 5%;
+    margin-bottom: -18px;
+    margin-top:0px;
+    color: #5a5757;
+}
+.contoffer{
+    display: block;
+    border-bottom: 1px solid gray;
+    height: 106px;
+}
+ ion-scroll {
+    position: relative;
+    display: list-item;
+    padding: 13%;
+            .scroll-content{
+            white-space: nowrap;
+            height: 56px;
+            max-height: 56px;
+            overflow-x:scroll; 
+            margin-top: 15px;
+            margin-right: auto;
+            margin-left: auto;
+            width: 90%;
+            img{
+                width: 15%;
+                max-width: 15%;
+                border:1px solid gray;
+            }
+   }
+   }
+
+   .col{
+       
+       p{
+           margin: 0;
+           padding: 0 5px;
+       }
+   }
+
+
+   .salonsrow{
+        padding: 10px 10px 0;
+        height: 190px;
+        max-height: 190px;
+        direction: rtl;
+   }
+   [col-1]{
+       padding: 5px 5px;
+       text-align: left;
+       ion-icon{
+               color: #e4b806;
+       }
+   }
+   [col-6]{
+      div{
+            border:1px solid gray;
+            width:100%;
+            height: 100%;
+             img{
+                    height: 70%;
+                    width: 100%;
+                    max-height:70%
+                }
+                span{
+                    direction: rtl;
+                    position: absolute;
+                    top: 3%;
+                    padding: 3px;
+                    background: black;
+                    color: white;
+                    opacity: 0.6;
+                    width: 94%; 
+                    height: 15%;
+                    font-weight: bold;
+       }
+         }
+     
+     }
+   [col-4]{
+       ion-icon{
+                float: left;
+                color: #b32470;
+       }
+   }
+ .footer 
+ {   direction: rtl;
+     height: 85px;
+     background-color: white;
+     .row .col{
+     text-align: center;
+     padding:17px 0;
+     border-right:1px solid gray;
+     a {
+    color: gray;
+}
+}
+ }
+}

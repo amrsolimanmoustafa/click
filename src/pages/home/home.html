@@ -1,0 +1,283 @@
+<!--
+  Generated template for the Home page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+
+<ion-header>
+
+  <ion-navbar>
+   
+    <ion-title> 
+      <ion-icon  class="menu"ios="ios-menu" md="md-menu"></ion-icon>
+        <img src="assets/imgs/title.png" width="20%">
+      <ion-icon class="search"ios="ios-search" md="md-search"></ion-icon>
+    </ion-title>
+   
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <div>
+  <ion-segment [(ngModel)]="khadmat">
+    <ion-segment-button value="offers">
+      العروض
+    </ion-segment-button>
+    <ion-segment-button value="salons">
+      الصالونات
+    </ion-segment-button>
+    <ion-segment-button value="homeserveices">
+      الخدمات المنزليه
+    </ion-segment-button>
+  </ion-segment>
+</div>
+
+ <ion-slides>
+
+  <ion-slide style="background-image:url('assets/imgs/a.jpg')">
+    <h2>Slide 1</h2>
+  </ion-slide>
+
+  <ion-slide style="background-image:url('assets/imgs/s.jpg')">
+    <h2>Slide 2</h2>
+  </ion-slide>
+
+   <ion-slide style="background-image:url('assets/imgs/d.jpg')">
+    <h2>Slide 3</h2>
+  </ion-slide>
+</ion-slides>
+
+
+
+
+<div [ngSwitch]="khadmat">
+  <div *ngSwitchCase="'offers'">
+      <div class="contoffer">
+       <h6>عروض الشهر</h6>
+        <ion-scroll direction="y">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+        </ion-scroll>
+      </div>
+      <div class="contoffer">
+        <h6>عروض مميزه</h6>
+          <ion-scroll direction="y">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+        </ion-scroll>
+      </div>
+      <div class="contoffer">
+        <h6>امهر المصممين</h6>
+          <ion-scroll direction="y">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+        </ion-scroll>
+      </div>
+      <div class="contoffer">
+        <h6>الخدمات الاساسية</h6>
+          <ion-scroll direction="y">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+          <img src="assets/imgs/icon512.png">
+        </ion-scroll>
+      </div>
+
+  </div> 
+
+  <div *ngSwitchCase="'salons'">
+    <ion-row class="salonsrow">
+      
+       <ion-col col-6>
+        <div>
+        <img (click)="details()" src="assets/imgs/icon512.png" >
+        <span>صالون كليك</span>
+        <p>اللؤلؤه ,الدوحة</p>
+        <ion-row>
+          <ion-col col-1>
+            <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-3></ion-col>
+          <ion-col col-4>
+            <ion-icon ios="ios-home" md="md-home"></ion-icon>
+          </ion-col>
+        </ion-row>
+         </div>
+      </ion-col>
+
+       <ion-col col-6>
+        <div>
+        <img (click)="details()" src="assets/imgs/s.jpg" >
+        <span>صالون كليك</span>
+        <p>اللؤلؤه ,الدوحة</p>
+        <ion-row>
+          <ion-col col-1>
+            <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-3></ion-col>
+          <ion-col col-4>
+            <ion-icon ios="ios-home" md="md-home"></ion-icon>
+          </ion-col>
+        </ion-row>
+         </div>
+      </ion-col>
+
+    </ion-row>
+
+  </div>
+
+
+
+
+    <div *ngSwitchCase="'homeserveices'"> 
+       <ion-row class="salonsrow">
+      
+       <ion-col col-6>
+        <div>
+        <img src="assets/imgs/icon512.png">
+        <span>المصممه يارا</span>
+        <p>المهنه والوظيفه</p>
+        <ion-row>
+          <ion-col col-1>
+            <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-7></ion-col>
+        
+        </ion-row>
+         </div>
+      </ion-col>
+
+       <ion-col col-6>
+        <div>
+        <img src="assets/imgs/icon512.png">
+        <span>المصممه يارا</span>
+        <p>المهنه والوظيفه</p>
+        <ion-row>
+          <ion-col col-1>
+            <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-1>
+             <ion-icon ios="ios-star" md="md-star"></ion-icon>
+          </ion-col>
+          <ion-col col-7></ion-col>
+         
+        </ion-row>
+         </div>
+      </ion-col>
+
+    </ion-row>
+    </div>
+
+
+</div>
+ 
+</ion-content>
+
+<ion-footer >
+  <ion-row style="padding: 8px 0;">
+    <ion-col col-3>
+      <a><ion-icon ios="ios-notifications" md="md-notifications"></ion-icon></a><br>
+        <p>الاشعارات</p>
+    </ion-col>
+    <ion-col col-3>
+     <a><ion-icon ios="ios-clock" md="md-clock"></ion-icon></a><br>
+       <p>المواعيد</p>
+    </ion-col>
+    <ion-col col-3>
+     <a>  <ion-icon ios="ios-arrow-round-down" md="md-arrow-round-down"></ion-icon>
+       <ion-icon ios="ios-list" md="md-list"></ion-icon>
+     </a><br>
+       <p>ترتيب حسب</p>
+    </ion-col>
+    <ion-col col-3>
+      <a><ion-icon ios="ios-navigate" md="md-navigate"></ion-icon></a><br>
+        <p>عرض الخريطه</p>
+    </ion-col>
+  </ion-row>
+</ion-footer>

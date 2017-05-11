@@ -1,0 +1,40 @@
+page-copon {
+.forma{
+    margin-right: auto;
+    margin-left: auto;
+    width: 90%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    direction: rtl;
+}
+.formitem{
+  
+    margin-right: auto;
+    margin-left: auto;
+    border: 1px solid gray;
+    
+    height: 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.add ,.copon{
+    background-color: #ffcc00;
+    border-radius: 6px;
+    font-size: larger;
+    margin-top: 5%;
+    border: 1px solid white;
+    height: 50px;
+}
+.copon{
+    background-color:#ff3366 !important; 
+    .right{
+        position:fixed;
+        right: 4%;
+    }
+    .left{
+        position:fixed;
+        left:3%;
+    }
+}
+}
