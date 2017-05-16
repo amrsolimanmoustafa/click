@@ -4,6 +4,7 @@ import {Signup} from "../signup/signup";
 import {Activation} from "../activation/activation";
 import {Editaccount} from "../editaccount/editaccount";
 import { AlertController } from 'ionic-angular';
+import {Home} from "../home/home";
 
 @Component({
   selector: 'page-login',
@@ -49,5 +50,7 @@ export class Login {
     });
     prompt.present();
   }
-
+home(){
+  this.navCtrl.push(Home);
+}
 }

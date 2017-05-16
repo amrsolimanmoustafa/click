@@ -7,12 +7,152 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>choosingservices</ion-title>
+    <ion-title>Click</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content>
+  <div dir="rtl" class="contdiv">
+    <ion-row class="servrow">
+          <ion-col col-4>
+            <h6>الخدمات المختاره</h6>
+          </ion-col>
+          <ion-col col-4 class="left">
+             <h6>السعر</h6>
+          </ion-col>
+          <ion-col col-4 class="order">
+             <h6>العربون</h6>
+          </ion-col>
+        </ion-row>
+
+          <ion-row>
+          <ion-col col-4>
+            <p>قص وتصفيف الشعر</p>
+          </ion-col>
+         <ion-col col-4 class="left">
+             <p>٣٠٠٠ريال</p>
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>١٥٠ريال</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col col-4>
+            <p>بوتكس</p>
+          </ion-col>
+         <ion-col col-4 class="left">
+             <p>٣٠٠٠ريال</p>
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>١٥٠ريال</p>
+          </ion-col>
+        </ion-row>
+
+        <ion-row>
+          <ion-col col-4>
+            <p>مكاديمايا</p>
+          </ion-col>
+         <ion-col col-4 class="left">
+             <p>٣٠٠٠ريال</p>
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>١٥٠ريال</p>
+          </ion-col>
+        </ion-row>
+  </div>
+
+ <div dir="rtl" class="contdiv">
+     <ion-row>
+          <ion-col col-4>
+            <p>سعر الخدمات</p>
+          </ion-col>
+          <ion-col col-4>
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>٣٠٠٠ريال</p>
+          </ion-col>
+        </ion-row>
+
+         <ion-row>
+          <ion-col col-4>
+            <p>اضافة كوبون خصم</p>
+          </ion-col>
+          <ion-col col-4>
+          </ion-col>
+          <ion-col col-4 class="order">
+           <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
+          </ion-col>
+        </ion-row>
+        
+          <ion-row>
+          <ion-col col-4>
+            <p>سعر بعد الخصم</p>
+          </ion-col>
+          <ion-col col-4>
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>٢٥٠٠ريال</p>
+          </ion-col>
+        </ion-row>
+
+          <ion-row>
+          <ion-col col-4>
+            <p> العربون</p>
+          </ion-col>
+          <ion-col col-4>
+            
+          </ion-col>
+          <ion-col col-4 class="order">
+            <p>٥٠٠ريال</p>
+          </ion-col>
+        </ion-row>
+  </div>
+
+ <div dir="rtl" class="contdiv">
+     <ion-row>
+          <ion-col col-4>
+            <p>التاريخ</p>
+          </ion-col>
+         <ion-col col-4></ion-col>
+          <ion-col col-4 class="order">
+          <ion-datetime displayFormat="MM/DD/YYYY"></ion-datetime>
+          </ion-col>
+        </ion-row>
+
+
+         <ion-row>
+          <ion-col col-4>
+            <p>الوقت</p>
+          </ion-col>
+          <ion-col col-4></ion-col>
+          <ion-col col-4 class="order">
+           <ion-datetime displayFormat="HH:mm"></ion-datetime>
+          </ion-col>
+        </ion-row>
+  </div> 
+
+  <div dir="rtl" class="paymentmethod">
+     <ion-row class="servrow">
+          <ion-col col-12>
+            <h6>خيارات الدفع</h6>
+          </ion-col>
+    </ion-row>
+   <ion-list radio-group>
+        <ion-item>
+          <ion-label>الرصيد</ion-label>
+          <ion-radio checked="true" value="cash"></ion-radio>
+        </ion-item>
+
+        <ion-item>
+          <ion-label>Paypal Account</ion-label>
+          <ion-radio value="paypal"></ion-radio>
+        </ion-item>
+     </ion-list>
+  </div>
+  <button class="terms" ion-button clear> سياسية الالغاء والشروط</button>
+  <button class="confirm" ion-button block (click)="orderinfo()"> تاكيد</button>
 
 </ion-content>

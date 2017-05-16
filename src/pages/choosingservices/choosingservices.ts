@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {Orderinfo} from "../orderinfo/orderinfo";
 
 
 @Component({
@@ -13,6 +14,10 @@ export class Choosingservices {
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Choosingservices');
+  }
+
+  orderinfo(){
+    this.navCtrl.push(Orderinfo);
   }
 
 }

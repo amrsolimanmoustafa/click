@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import {Choosingservices} from "../choosingservices/choosingservices";
 
 @Component({
   selector: 'page-servicedetails',
@@ -13,5 +14,7 @@ export class Servicedetails {
   ionViewDidLoad() {
     console.log('ionViewDidLoad Servicedetails');
   }
-
+ gochose(){
+      this.navCtrl.push(Choosingservices);
+ }
 }

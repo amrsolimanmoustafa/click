@@ -1,6 +1,7 @@
 page-activation {
 .content{
-    background-color: #990066;
+    background-color:#a4144d;
+;
     direction: rtl;
 }
 .forma{
@@ -29,5 +30,8 @@ page-activation {
 }
 .resend{
     color:white;
+    .ion-icon{
+            padding: 0 5px;
+    }
 }
 }
