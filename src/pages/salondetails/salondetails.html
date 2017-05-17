@@ -83,7 +83,16 @@
         <p class="servicename" (click)="servicedetail()">البشره
           <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon></p> 
        
-
+      <div>
+         <div  class="status">
+            <p>الحالة الان</p>
+            <img src="assets/imgs/open.png">
+         </div>
+         <div class="maplocation">
+            <p>المكان على الخريطه</p>
+            <img src="assets/imgs/map.png">
+         </div>
+       </div>
   </div>
 
  <div dir="rtl" *ngSwitchCase="'homeserveices'" class="homeserv">
@@ -239,7 +248,8 @@
           <button ion-button block> اضف تعليق
           </button>
         </div>
-  </div>
+       </div> 
+     
 
 </div>   
 </ion-content>

@@ -12,12 +12,13 @@ page-contactus {
     direction: rtl;
 }
 .formitem{
-  
+    background-repeat:no-repeat;
+    background-position:96%;
     margin-right: auto;
     margin-left: auto;
-    border: 1px solid gray;
-    
-    height: 50px;
+    direction: rtl;
+    padding: 0 20px;
+    border: 1;
     border-radius: 8px;
     margin-bottom: 20px;
 }
