@@ -27,12 +27,15 @@ page-signup {
 }
 
 .formitem{
+    background-repeat:no-repeat;
+    background-position:96%;
     margin-right: auto;
     margin-left: auto;
-    border: 1;
     direction: rtl;
+    padding: 0 20px;
+    border: 1;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 .button{
     color:black;

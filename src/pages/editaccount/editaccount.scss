@@ -13,14 +13,6 @@ page-editaccount {
     left: 5%;
 }
 .language{
-    background-color: #6d6969;
-    color:white !important;
-    .label{
-        color: #fffefe;
-    }
-}
-.formitem ,.language{
-    
     margin-right: auto;
     margin-left: auto;
     border: 1;
@@ -28,6 +20,23 @@ page-editaccount {
     border-radius: 8px;
     margin-bottom: 15px;
     padding-left: 3px;
+    background-color: #6d6969;
+    color:white !important;
+    .label{
+        color: #fffefe;
+    }
+}
+ 
+.formitem{
+    background-repeat:no-repeat;
+    background-position:96%;
+    margin-right: auto;
+    margin-left: auto;
+    direction: rtl;
+    padding: 0 20px;
+    border: 1;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 .button{
     color:black;

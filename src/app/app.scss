@@ -22,14 +22,28 @@
 }
 .alert-md .alert-wrapper{
     border-radius: 15px !important;
+    background-color: #f7ecec;
 }
+.alert-md .alert-button{
+    margin-right: auto;
+    margin-left: auto;
+    border: 3px solid white;
+    background: #ffc200;
+    color: black;
+    width: 40%;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
 .alert-md .alert-input{
-        border: 1px solid #dedede;
-        padding:10px 5px;
+    border: 1px solid #b1acac;
+    border-radius: 10px;
+    padding:10px 5px;
 }
 .toolbar-background{
         background: #a4144d;
 }
+
 .toolbar-title{
     color: white;
     

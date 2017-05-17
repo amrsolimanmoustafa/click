@@ -12,11 +12,14 @@ page-login {
     left: 5%;
 }
 .formitem{
-  
+    // D5D9DB
+    background-repeat:no-repeat;
+    background-position:96%;
     margin-right: auto;
     margin-left: auto;
-    border: 1;
     direction: rtl;
+    padding: 0 20px;
+    border: 1;
     border-radius: 8px;
     margin-bottom: 20px;
 }
